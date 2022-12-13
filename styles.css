@@ -1,0 +1,55 @@
+/* This is for the webpage background */
+html{
+    background: linear-gradient(269.4deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+}
+
+/* This For The Body */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* This for the buttons */
+button{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+}
+
+div#btns {
+  display: flex;
+}
+
+@keyframes rgb-motion {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    50% {
+      color: rgb(0, 255, 0);
+    }
+    100% {
+      color: rgb(0, 0, 255);
+    }
+  }
+  
+  #NumSq,
+  #removeSq {
+    animation: rgb-motion 2s infinite;
+}
+
+
+/* This for the grids */
+#container{
+  display: grid;
+  height: 500px;
+  width: 500px;
+  border: thick solid;
+}
+
+div.grid{
+  border: 1px solid black;
+}
