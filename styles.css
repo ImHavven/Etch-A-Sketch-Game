@@ -26,10 +26,7 @@ button{
 }
 
 
-div#btns {
-  display: flex;
-}
-
+/* This will change the background-color of the button  */
 @keyframes rgb-motion {
     0% {
       background-color: rgb(255, 0, 0);
